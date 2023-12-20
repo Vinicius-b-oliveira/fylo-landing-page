@@ -1,0 +1,22 @@
+.header 
+{
+    padding: 65px 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 86px;
+}
+.header .menu 
+{
+    display: flex;
+    gap: 57px;
+    font-size: 1.6rem;
+    
+}
+.header .menu li 
+{
+    transition: .3s ease-in-out;
+}
+.header .menu li:hover
+{
+    transform: translateY(-10px);
+}
